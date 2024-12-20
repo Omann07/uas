@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:tokoonline/constant.dart';
-// import 'package:tokoonline/login.dart';
-import 'package:tokoonline/users/landingpage.dart' as users;
+import 'package:tokoonline/login_screen.dart';
+// import 'package:tokoonline/users/landingpage.dart' as users;
 
 class LauncherPage extends StatefulWidget {
   const LauncherPage({super.key});
@@ -28,7 +28,7 @@ class _LauncherPageState extends State<LauncherPage> {
     var duration = const Duration(seconds: 5);
     Timer(duration, () {
       Navigator.of(context).pushReplacement(
-        MaterialPageRoute(builder: (_) => const users.LandingPage()), // Nama kelas diperbaiki
+        MaterialPageRoute(builder: (_) => const LoginScreen()), // Nama kelas diperbaiki
       );
     });
   }

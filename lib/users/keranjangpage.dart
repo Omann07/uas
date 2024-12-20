@@ -20,10 +20,6 @@ class _KeranjangPageState extends State<KeranjangPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 250, 129, 8),
-        title: const Text('Keranjang'),
-      ),
       body: Column(
         children: [
           Expanded(

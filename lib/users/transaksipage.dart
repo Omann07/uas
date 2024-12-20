@@ -11,10 +11,6 @@ class _TransaksiPageState extends State<TransaksiPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: const Color.fromARGB(255, 250, 129, 8),
-        title: const Text('Transaksi'),
-      ),
       body: ListView.builder(
         padding: const EdgeInsets.all(16.0),
         itemCount: 5, // Jumlah pesanan
